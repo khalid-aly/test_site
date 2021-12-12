@@ -1,0 +1,89 @@
+.container
+{ 
+    background-color: rgb(255, 246, 235);
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(5, 49, 85);
+
+}
+li
+{
+    display: inline;
+    padding: 14px 16px;
+    font-size: 25px;
+}
+ li a{
+    
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;
+}
+li a:hover{
+    background-color: rgb(22, 110, 22);
+    border-radius: 50%;
+    color: white;
+}
+.fu{
+  font-size: 32px;
+  text-align: center;
+  box-shadow: 2px 2px 4px 2px rgb(80, 80, 80);
+}
+.card
+{
+    margin-right: 150px;
+
+}
+.footer1{
+    background-color:  rgb(5, 49, 85);
+    color: rgb(253, 253, 253);
+    
+}
+.rights
+{   display: block;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    transition: .8s;
+    } 
+.follow
+{display: block;
+font-size: 25px;
+text-align: center;
+text-decoration: none;
+color: antiquewhite;
+transition: .8s;
+}
+.social
+{display: block;
+text-align: center;
+text-decoration: none;
+color: antiquewhite;
+transition: .8s;
+}
+.social:hover
+{color: #fbff06;
+ cursor: pointer;
+ }
+.terms
+{ display: block;
+  text-align: end;
+  text-decoration: none;
+  color: antiquewhite;
+  transition: .8s;
+}
+.terms:hover
+{color: #fbff06;
+ cursor: pointer;
+}
+.rights:hover
+{color: #fbff06;
+ cursor: pointer;
+}
