@@ -1,20 +1,35 @@
+<?php
+
+session_start();
+if (!isset($_SESSION['email'])) {
+    header("Location: login.php");
+
+}
+else{
+  echo $_SESSION['email'];
+  echo ('<a href="logout.php" title="Logout">Logout.</a>');
+}
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8" >
         <title></title>
-        <link rel="stylesheet" href="style.css">  
+        <link ref="stylesheet" href="style.css"  >
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         
+        
     </head>
     <body>
+    
         <?php include("header.php"); ?>
 <div class="container">
   <br>
   <div class="fu"><span>Furniture</span></div>
-
+ 
 <br><br>
+
 <div class="row">
 <div class="card col-4" style="width: 18rem;">
   <img src="image/chair1.jpg" class="card-img-top" alt="...">
